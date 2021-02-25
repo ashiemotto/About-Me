@@ -1,35 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!--added reset style page to remove default page styling to make page more customizable-->
     <head>
             <title>Ashton's contact page</title>
-            <link rel="stylesheet" type="text/css" href="reset.css">
-            <link rel="stylesheet" type="text/css" href="style.css">
+            <link rel="stylesheet" type="text/css" href="./css/reset.css">
+            <link rel="stylesheet" type="text/css" href="./css/style.css">
     </head>
 
     <body>
         <header class="header">
             <h1>Ashton Headley</h1>
+            <img src="./images/IMG_1414.JPG" alt="Picture of ashton standing beside a g-wagon">
             <nav class="nav"> 
                 <ul>
-                    <li> <a href="#" >About Me</a></li>
-                    <li> <a href="#">Work Samples</a></li>
+                    <li> <a href="#write-up" >About Me</a></li>
+                    <li> <a href="#sample">Work Samples</a></li>
                     <li> <a href="#">Contact Information</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
-            <section class="about-me">
-
+            <section class="about-me" id="write-up">
+                <h2>About Me</h2>
+                <p>Hello I'm Ashton Headley. I'm a Master Mercedes-Benz Certified Diagnastic technician and team leader.  
+                   I'm also a fullstack developer student looking to become a full stack developer.
+                   I love cars and any new emerging technologies of all kinds. Here is a sampling of what I can do.
+                   Enjoy my work and I look forward to hearing from you.
+                </p>
             </section>
-            
+<!--created a link t my first prject that opens on another page with a screen shot-->
+        <div class="work-samples">
+            <section id="sample" class="samples">
+                <h2>Work Samples</h2>
+                <a href="https://ashiemotto.github.io/Horiseon/" target="_blank">Horiseon Website</a>
+                <img src="./images/Screenshot (3).png" alt="screen shot of Horiseon Webpage">
+            </section>
+<!-- creating links so that I can add future work-->
+            <section class="samples">
+                <a href="#" target="_blank">second sample</a>
+                <img src="./images/bigstock-Programming-Web-Banner-Best-P-258081862.jpg">
+            </section>
+
+            <section class="third-sample">
+                <a href="#" target="_blank">third sample</a>
+                <img src="./images/slr.jpg" alt="picture of an SLR">
+            </section>
+        </div>
+<!--adding contact me section with links to my contacts-->
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <ul>
+                <li>Phone Number: 613-867-6008</li>
+                <li>Email: <a href="mailto:Ashheadley@gmail.com">Ashheadley@gmail.com</a></li>
+                <li>Github: <a href="https://github.com/ashiemotto" target="_blank">Ashiemotto</a> </ul>
+        </section>
+
+
         </main>
 
     </body>
 
-
-    <footer>
-
-    </footer>
 </html>
