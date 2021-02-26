@@ -8,17 +8,17 @@ body{
 }
 
 main{
-    display: flex;
+    display:flex ;
     margin-top: 2px;
+   
 }
 
 .header{
-    display: flex;
-    text-align: end;
-    background-color: black;
-    color: white;
-    font-size: 40px;
-    padding: 40px;
+    background-image: url("../images/ian-schneider-TamMbr4okv4-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 95%;
+  
 }
 
 .header img{
@@ -34,26 +34,31 @@ nav{
    justify-content: end;
 }
 
+
 nav a{
     color: white;
     padding: 14px 20px;
-    text-align: center;
+    text-align:center;
+    display:inline-flex;
 }
 
 .about-me{
     background-color: black;
     color: white;
     font-size: 15px;
+    padding: 15px;
 }
 
 .about-me h2{
     font-size: 40px;
+    padding: 15px;
 }
 
 .work-samples{
     font-size: 40px;
     background-color: black;
     color: white;
+    padding: 20px;
 }
 
 .work-samples a{
@@ -70,3 +75,19 @@ nav a{
     margin: 40px;
     display: flex;
 }
+
+.contact{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    flex-wrap: wrap;
+    
+}
+
+@media screen and (max-width: 768px) {
+    main,
+    nav{
+        flex-direction: column;
+    }
+}
+
