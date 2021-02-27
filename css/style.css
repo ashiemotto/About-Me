@@ -1,67 +1,74 @@
 *{
     box-sizing: border-box;
 }
-
+/*set font family and margins*/
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
+    
 }
-
+/* set display for body as flex, also added a margin top to create a line to make a visual seperation */
 main{
     display:flex ;
-    margin-top: 2px;
-   
+    flex-direction: column;
+    margin-top: 2px;  
 }
-
+/* set my header background image and set it to fit the header space and adust as screen adjusts*/
 .header{
     background-image: url("../images/ian-schneider-TamMbr4okv4-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 95%;
-  
+    background-size: cover;
 }
-
-.header img{
-height: 400px;
-width:400px;
-margin: 40px;
-display: flex;
+/*set font settings and padding for h1*/
+.head h1{
+    font-weight: bold;
+    font-size: 60px;
+    padding:10px
 }
-
-nav{
-    font-size: 20px;
-    display: flex;
-   justify-content: end;
+/*set image properties */
+.head img{
+    display:flex;
+    align-items: center;
+    padding-left: 10px;
+    max-height: 200px;
+    max-width: 400px;
 }
-
-
+/* set font and padding seetings for links*/
 nav a{
-    color: white;
+    font-size: 30px;
+    color:black;
     padding: 14px 20px;
     text-align:center;
     display:inline-flex;
+    font-weight: 900;
 }
-
-.about-me{
-    background-color: black;
-    color: white;
-    font-size: 15px;
+/* set font and padding for about me paragraph*/
+.a1 p{
+    font-size: 20px;
     padding: 15px;
 }
-
-.about-me h2{
+/* set headings font and padding*/
+.about-me h2,
+.work-samples h2 {
     font-size: 40px;
     padding: 15px;
 }
-
-.work-samples{
-    font-size: 40px;
+/* set background colours and word colours*/
+.a1,
+.work-samples,
+.coming-soon,
+.contact,
+.scratch{
     background-color: black;
     color: white;
-    padding: 20px;
+    padding: 30px;
 }
 
-.work-samples a{
+.work-samples a,
+.scratch a,
+.coming-soon a,
+.contact{
     font-size: 20px;
     color: white;
     padding: 14px 20px;
@@ -72,20 +79,19 @@ nav a{
 .work-samples img{
     height: 500px;
     width:500px;
-    margin: 40px;
-    display: flex;
 }
 
 .contact{
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    flex-wrap: wrap;
-    
+    text-align: center;
 }
+
+
+
+
 
 @media screen and (max-width: 768px) {
     main,
+    .head,
     nav{
         flex-direction: column;
     }
