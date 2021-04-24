@@ -81,14 +81,14 @@ nav a{
     width:500px;
 }
 
+.coming-soon img{
+    height: 500px;
+    width: 500px;
+}
 .contact{
     text-align: center;
 }
-
-
-
-
-
+/*set screen to chanes for devices so there is no overflow*/
 @media screen and (max-width: 768px) {
     main,
     .head,
