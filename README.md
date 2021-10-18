@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Thanks for viiting my about me website. This website was created to show off my work to potential employers. I created this website using what I've learned from my coding bootcamp, check back often as I will be updating it regularly: https://ashiemotto.github.io/About-Me/
+Thanks for visiting my about me website. This website was created to show off my work to potential employers. I created this website using what I've learned from my coding bootcamp, check back often as I will be updating it regularly: https://ashiemotto.github.io/About-Me/
 #
 ![picture of website](./images/Screenshot.png)
 
