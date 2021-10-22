@@ -87,6 +87,7 @@ nav a{
 }
 .contact{
     text-align: center;
+    color: white;
 }
 /*set screen to chanes for devices so there is no overflow*/
 @media screen and (max-width: 768px) {
